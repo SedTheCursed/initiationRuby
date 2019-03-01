@@ -8,5 +8,5 @@ if (repetition > 0)
         puts "Salut, ça farte ?"
     end
 else
-    puts "Vous avez entrer un nombre incorrect de répetitions."
+    puts "Vous avez entré un nombre incorrect de répetitions."
 end
