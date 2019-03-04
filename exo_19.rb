@@ -1,8 +1,5 @@
-# Écris un programme exo_18.rb qui va créer une liste de 50 faux emails et les stocker dans une array.
-# Voici le format que devront avoir les faux emails :
-# "jean.dupont.01@email.fr"
-# "jean.dupont.02@email.fr"
-# etc..
+# Prends le programme exo_18.rb et créé un programme exo_19.rb qui va reprendre
+# l'array des emails créés, et n'afficher que les emails avec un nombre pair.
 
 emails = []
 
@@ -11,6 +8,8 @@ emails = []
     email = "jean.dupont."
     email += (number<10)? "0"+number.to_s: number.to_s
     email += "@email.fr"
-    puts email
+    if (number % 2 == 0)
+        puts email
+    end
     emails << email
 end
